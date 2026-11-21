@@ -1,4 +1,4 @@
-# pmwallets-com
+# PMWallets
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pmwallets-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pmwallets.com/
+PMWallets provides a Polymarket leaderboard and smart‑money wallet tracking service. It computes forward‑only PnL metrics from the Polygon ledger, offering real‑time fills via WebSocket, subscription feeds, and a suite of pricing plans. The platform includes documentation, pricing, privacy policy, terms of service, and community links such as Discord and Telegram.
+
+**Areas:** Company · Polymarket · Leaderboard · Crypto · Finance
+
+## PMWallets on APIs.io
+
+Everything profiled for PMWallets is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pmwallets-com/](https://apis.io/providers/pmwallets-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [PMWallets Account API](https://apis.io/apis/pmwallets-com/pmwallets-com-account-api/) — Identity, balance, statement and invites.
+- [PMWallets Board API](https://apis.io/apis/pmwallets-com/pmwallets-com-board-api/) — Leaderboard, entity pages and market aggregates.
+- [PMWallets Exports API](https://apis.io/apis/pmwallets-com/pmwallets-com-exports-api/) — Per-wallet daily trade-history files.
+- [PMWallets Plans API](https://apis.io/apis/pmwallets-com/pmwallets-com-plans-api/) — Monthly plans (Base / Pro / Max).
+- [PMWallets Push API](https://apis.io/apis/pmwallets-com/pmwallets-com-push-api/) — Live fill subscriptions, webhook health and fill replay.
+- [PMWallets Signals API](https://apis.io/apis/pmwallets-com/pmwallets-com-signals-api/) — Smart-money signals and the radar (Pro and Max).
+- [PMWallets Status API](https://apis.io/apis/pmwallets-com/pmwallets-com-status-api/) — Service health and latency.
+- [PMWallets Unlocks API](https://apis.io/apis/pmwallets-com/pmwallets-com-unlocks-api/) — Buying the address behind a handle.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pmwallets Com Webhooks](https://apis.io/asyncapis/pmwallets-com/pmwallets-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PMWallets Agentic Access](https://apis.io/agentic-access/pmwallets-com/pmwallets-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Entity](https://apis.io/schemas/pmwallets-com/pmwallets-com-entity/)
+- [ExportQuote](https://apis.io/schemas/pmwallets-com/pmwallets-com-export-quote/)
+- [Fill](https://apis.io/schemas/pmwallets-com/pmwallets-com-fill/)
+- [Leaderboard](https://apis.io/schemas/pmwallets-com/pmwallets-com-leaderboard/)
+- [PlanStatus](https://apis.io/schemas/pmwallets-com/pmwallets-com-plan-status/)
+- [Subscription](https://apis.io/schemas/pmwallets-com/pmwallets-com-subscription/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pmwallets Com Context](https://apis.io/jsonld/pmwallets-com/pmwallets-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PMWallets API Rules](https://apis.io/rules/pmwallets-com/pmwallets-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PMWallets Authentication](https://apis.io/security/pmwallets-com/pmwallets-com-authentication/)
+- [PMWallets Domain Security](https://apis.io/security/pmwallets-com/pmwallets-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PMWallets Plans Pricing](https://apis.io/plans/pmwallets-com/pmwallets-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pmwallets.com/)
+- [Documentation](https://pmwallets.com/docs)
+- [Getting started](https://pmwallets.com/guides/polymarket-copy-trading-bot-setup)
+- [API reference](https://pmwallets.com/llms.txt)
+- [Pricing](https://pmwallets.com/pricing)
+- [Support](https://pmwallets.com/faq)
+- [Blog](https://pmwallets.com/learn)
+- [Terms of service](https://pmwallets.com/terms)
+- [Privacy policy](https://pmwallets.com/privacy)
+- [GitHub](https://github.com/polymarketwallets)
+
+## API Evangelist rating
+
+**Kin Score 63.0** — strong · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 60.0 |
+
+**Agent readiness 57.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pmwallets-com/](https://apis.io/providers/pmwallets-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PMWallets: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pmwallets-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
